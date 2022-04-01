@@ -9,7 +9,7 @@ class SimpleDialogApp extends StatelessWidget {
       ),
       body: Center(
         child: FlatButton(
-          child: Text("Mostrar"),
+          child: Text("mostrar"),
           onPressed: () {
             _showDialog(context);
           },
